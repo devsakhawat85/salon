@@ -67,7 +67,7 @@ export const PORTFOLIO_ITEMS: PortfolioItem[] = [
     title: 'Luminous Champagne Balayage',
     category: 'BLONDE',
     categoryLabel: 'Dimensional Blonde',
-    image: '/src/assets/images/portfolio_blonde_balayage_1790180918403.jpg',
+    image: '/images/portfolio_blonde.jpg',
     aspectRatio: 'landscape',
     description:
       'Ultra-fine micro-weaves and surface painted panels melted into a soft natural shadow root. Designed for high shine and seamless 4-month longevity.',
@@ -80,7 +80,7 @@ export const PORTFOLIO_ITEMS: PortfolioItem[] = [
     title: 'Brunette Halo Contouring',
     category: 'BRUNETTE',
     categoryLabel: 'Dimensional Brunette',
-    image: '/src/assets/images/portfolio_brunette_halo_1790180930917.jpg',
+    image: '/images/portfolio_brunette.jpg',
     aspectRatio: 'portrait',
     description:
       'Signature brunette depth paired with delicate caramel and toffee face-framing ribbons to illuminate facial features without harsh contrast.',
@@ -93,7 +93,7 @@ export const PORTFOLIO_ITEMS: PortfolioItem[] = [
     title: 'Seamless Sombré Transition',
     category: 'SOMBRÉ',
     categoryLabel: 'Soft Sombré',
-    image: '/src/assets/images/portfolio_sombre_melt_1790180942128.jpg',
+    image: '/images/portfolio_sombre.jpg',
     aspectRatio: 'portrait',
     description:
       'A gradual, fluid graduation from deep rich espresso into warm sandy beige. Zero demarcation line with a glass-like liquid finish.',
@@ -106,7 +106,7 @@ export const PORTFOLIO_ITEMS: PortfolioItem[] = [
     title: 'Redken Artist Masterclass',
     category: 'EDUCATION',
     categoryLabel: 'Professional Education',
-    image: '/src/assets/images/education_workshop_redken_1790180955055.jpg',
+    image: '/images/education_workshop.jpg',
     aspectRatio: 'landscape',
     description:
       'Demonstrating advanced sectioning geometry, brush tension, and saturation control live for professional colorists during a Redken hands-on academy.',
@@ -119,7 +119,7 @@ export const PORTFOLIO_ITEMS: PortfolioItem[] = [
     title: 'Full Dimensional Overhaul',
     category: 'TRANSFORMATIONS',
     categoryLabel: 'Color Correction',
-    image: '/src/assets/images/transform_after_color_1790180981725.jpg',
+    image: '/images/transform_after.jpg',
     aspectRatio: 'portrait',
     description:
       'Transforming oxidized uneven brass tones into a pristine pearl-beige balayage with an intentional root shadow that extends grow-out intervals.',
@@ -132,7 +132,7 @@ export const PORTFOLIO_ITEMS: PortfolioItem[] = [
     title: 'Editorial Master Color Portrait',
     category: 'COLOR',
     categoryLabel: 'Signature Color',
-    image: '/src/assets/images/hero_master_colorist_1790180903489.jpg',
+    image: '/images/hero.jpg',
     aspectRatio: 'landscape',
     description:
       'A study in dimensional hair architecture, texture refinement, and customized tonal harmony captured under studio lighting.',
@@ -158,7 +158,7 @@ export const TECHNIQUES: TechniqueItem[] = [
     ],
     formulaInsight:
       'Typically formulated 1 to 1.5 levels lighter than the natural regrowth using acidic demi-permanent color to prevent lifting the natural melanin.',
-    image: '/src/assets/images/portfolio_blonde_balayage_1790180918403.jpg',
+    image: '/images/portfolio_blonde.jpg',
   },
   {
     id: 'tech-2',
@@ -175,7 +175,7 @@ export const TECHNIQUES: TechniqueItem[] = [
     ],
     formulaInsight:
       'Formulating with warm golds, mochas, and iridescent pearls to prevent the color from looking muddy or flat.',
-    image: '/src/assets/images/portfolio_brunette_halo_1790180930917.jpg',
+    image: '/images/portfolio_brunette.jpg',
   },
   {
     id: 'tech-3',
@@ -192,7 +192,7 @@ export const TECHNIQUES: TechniqueItem[] = [
     ],
     formulaInsight:
       'Lightener with integrated bonding agents paired with low-volume developer to preserve cuticle integrity.',
-    image: '/src/assets/images/portfolio_sombre_melt_1790180942128.jpg',
+    image: '/images/portfolio_sombre.jpg',
   },
   {
     id: 'tech-4',
@@ -209,7 +209,7 @@ export const TECHNIQUES: TechniqueItem[] = [
     ],
     formulaInsight:
       'Zone 1 (Root), Zone 2 (Mid-shaft melt), and Zone 3 (Ends) using harmonized tonal families.',
-    image: '/src/assets/images/transform_after_color_1790180981725.jpg',
+    image: '/images/transform_after.jpg',
   },
   {
     id: 'tech-5',
@@ -226,7 +226,7 @@ export const TECHNIQUES: TechniqueItem[] = [
     ],
     formulaInsight:
       'Babylight weave on a diagonal forward angle with a 1/4-inch root smudge at the immediate hairline.',
-    image: '/src/assets/images/portfolio_blonde_balayage_1790180918403.jpg',
+    image: '/images/portfolio_blonde.jpg',
   },
   {
     id: 'tech-6',
@@ -243,7 +243,7 @@ export const TECHNIQUES: TechniqueItem[] = [
     ],
     formulaInsight:
       'Redken Shades EQ liquid acidic technology applied for full 20-minute processing for maximum longevity.',
-    image: '/src/assets/images/education_workshop_redken_1790180955055.jpg',
+    image: '/images/education_workshop.jpg',
   },
 ];
 
@@ -295,7 +295,7 @@ export const EDUCATION_WORKSHOPS: EducationWorkshop[] = [
 export const INSTAGRAM_POSTS = [
   {
     id: 'ig-1',
-    image: '/src/assets/images/portfolio_blonde_balayage_1790180918403.jpg',
+    image: '/images/portfolio_blonde.jpg',
     caption: 'Luminous champagne melt. Root smudge creates that effortless 3-month grow-out. Formulated with Redken Shades EQ.',
     likes: '1.4k',
     comments: '88',
@@ -303,7 +303,7 @@ export const INSTAGRAM_POSTS = [
   },
   {
     id: 'ig-2',
-    image: '/src/assets/images/portfolio_brunette_halo_1790180930917.jpg',
+    image: '/images/portfolio_brunette.jpg',
     caption: 'Brunette halo contouring in action. Soft caramel ribbons framing the face while keeping that rich espresso base.',
     likes: '2.1k',
     comments: '132',
@@ -311,7 +311,7 @@ export const INSTAGRAM_POSTS = [
   },
   {
     id: 'ig-3',
-    image: '/src/assets/images/education_workshop_redken_1790180955055.jpg',
+    image: '/images/education_workshop.jpg',
     caption: 'Sharing technique with this incredible group of artists. When we understand the science of hair, the art becomes limitless.',
     likes: '960',
     comments: '64',
@@ -319,7 +319,7 @@ export const INSTAGRAM_POSTS = [
   },
   {
     id: 'ig-4',
-    image: '/src/assets/images/transform_after_color_1790180981725.jpg',
+    image: '/images/transform_after.jpg',
     caption: 'Full corrective transformation. Out with the brass, in with creamy neutral beige and maximum mirror gloss.',
     likes: '3.2k',
     comments: '210',
@@ -327,7 +327,7 @@ export const INSTAGRAM_POSTS = [
   },
   {
     id: 'ig-5',
-    image: '/src/assets/images/portfolio_sombre_melt_1790180942128.jpg',
+    image: '/images/portfolio_sombre.jpg',
     caption: 'Soft sombré graduation. The key is in the diagonal back sectioning and feathering with the side of the brush.',
     likes: '1.8k',
     comments: '94',
@@ -335,7 +335,7 @@ export const INSTAGRAM_POSTS = [
   },
   {
     id: 'ig-6',
-    image: '/src/assets/images/mark_lamas_portrait_1790180994406.jpg',
+    image: '/images/mark_lamas_portrait.jpg',
     caption: 'Behind the chair at Panache Salon. Ready for another week of color architecture and education.',
     likes: '1.1k',
     comments: '73',

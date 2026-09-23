@@ -15,7 +15,7 @@ export const About: React.FC<AboutProps> = ({ onOpenBooking }) => {
           <div className="lg:col-span-5 relative">
             <div className="relative aspect-[3/4] overflow-hidden bg-[#121216] border border-white/10 shadow-2xl">
               <img
-                src="/src/assets/images/mark_lamas_portrait_1790180994406.jpg"
+                src="/images/mark_lamas_portrait.jpg"
                 alt="Mark Lamas - Master Colorist & Redken Artist"
                 referrerPolicy="no-referrer"
                 className="h-full w-full object-cover object-center grayscale contrast-110 hover:grayscale-0 transition-all duration-700"

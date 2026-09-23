@@ -33,7 +33,7 @@ export const Education: React.FC<EducationProps> = ({ onOpenBooking }) => {
         <div className="relative my-16 overflow-hidden bg-[#121216] border border-white/10">
           <div className="relative aspect-[16/9] md:aspect-[21/9] w-full overflow-hidden">
             <img
-              src="/src/assets/images/education_workshop_redken_1790180955055.jpg"
+              src="/images/education_workshop.jpg"
               alt="Mark Lamas conducting a professional hair color masterclass"
               referrerPolicy="no-referrer"
               className="h-full w-full object-cover object-center"

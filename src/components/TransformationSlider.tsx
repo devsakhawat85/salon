@@ -61,7 +61,7 @@ export const TransformationSlider: React.FC = () => {
             >
               {/* After Image (Full background) */}
               <img
-                src="/src/assets/images/transform_after_color_1790180981725.jpg"
+                src="/images/transform_after.jpg"
                 alt="Hair Color After: Luminous Champagne Sombré with Root Smudge"
                 referrerPolicy="no-referrer"
                 className="absolute inset-0 h-full w-full object-cover pointer-events-none"
@@ -73,7 +73,7 @@ export const TransformationSlider: React.FC = () => {
                 style={{ width: `${sliderPosition}%` }}
               >
                 <img
-                  src="/src/assets/images/transform_before_color_1790180969678.jpg"
+                  src="/images/transform_before.jpg"
                   alt="Hair Color Before: Faded brassy uneven grown-out color"
                   referrerPolicy="no-referrer"
                   className="absolute inset-0 h-full w-full object-cover max-w-none pointer-events-none"

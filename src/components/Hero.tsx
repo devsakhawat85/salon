@@ -12,7 +12,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking }) => {
       {/* Background Image with Cinematic Scrim */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/src/assets/images/hero_master_colorist_1790180903489.jpg"
+          src="/images/hero.jpg"
           alt="Mark Lamas - Master Colorist and Redken Artist in studio"
           referrerPolicy="no-referrer"
           className="h-full w-full object-cover object-center scale-100 transition-transform duration-1000 ease-out md:scale-[1.02]"
